@@ -4,7 +4,7 @@ import { configDotenv } from 'dotenv'
 configDotenv({ path: '.env' })
 import router from './src/Router/router.js'
 
-// connectDB()
+connectDB()
 
 const app = express()
 const PORT = process.env.PORT
